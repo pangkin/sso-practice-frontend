@@ -6,3 +6,5 @@ yarn-error.log
 .next
 out
 build
+
+.git
