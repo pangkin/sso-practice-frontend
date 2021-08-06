@@ -1,0 +1,52 @@
+.header {
+  z-index: 30;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.wrapper {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menus {
+  display: flex;
+}
+
+.logo {
+  font-size: 1.125rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  cursor: default;
+}
+
+.link {
+  margin-left: 2rem;
+  cursor: default;
+}
+
+.spacer {
+  height: 4rem;
+}
+
+.right {
+  display: flex;
+  float: right;
+}
+
+.nickname {
+  margin-right: 1rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: default;
+  &:hover {
+    background-color: lightgray;
+    border-radius: 80px/ 80px;
+  }
+}

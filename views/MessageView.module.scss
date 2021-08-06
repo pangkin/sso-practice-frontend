@@ -1,0 +1,71 @@
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.green {
+  color: green;
+}
+.pink {
+  color: pink;
+}
+.orange {
+  color: orange;
+}
+.magenta {
+  color: magenta;
+}
+.skyblue {
+  color: skyblue;
+}
+.brown {
+  color: brown;
+}
+.gray {
+  color: gray;
+}
+
+.message {
+  font-weight: 700;
+}
+
+.square {
+  border: 1px solid black;
+  height: 60vh;
+  margin-bottom: 1rem;
+  max-width: 360px;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
+.h1 {
+  margin-bottom: 1rem;
+}
+
+.write {
+  width: 100%;
+  max-width: 360px;
+}
+
+.input {
+  width: 85%;
+}
+
+.confirm {
+  float: right;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete {
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: transparent !important;
+  background-image: none !important;
+  border-color: transparent;
+  border: none;
+}
